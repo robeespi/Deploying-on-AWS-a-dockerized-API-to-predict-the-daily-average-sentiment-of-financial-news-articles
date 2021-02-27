@@ -27,7 +27,7 @@
   
 <p align=justify> 2.4.This walk-forward validation is performed in the hold out samples and then finally predict the average sentiment of the articles for the next day.
 
-![image](https://user-images.githubusercontent.com/21260916/109386938-16b06100-794e-11eb-8c9e-13ccc01a37a7.png)
+![image](https://github.com/robeespi/Deploying-on-AWS-a-dockerized-API-to-time-series-prediction-problem/blob/main/solution_diagram.jpeg)
 
 # 3. Results and Pipeline
 
