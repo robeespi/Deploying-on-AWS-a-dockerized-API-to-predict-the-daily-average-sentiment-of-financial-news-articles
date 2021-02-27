@@ -51,7 +51,7 @@ http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/API/PREDICT_AVG_SE
 Model | RMSE |  
 --- | --- | 
 Persistence(Baseline) | 0.124 | 
-Autoregressive | 0.098 | 
+Autoregressive (X,0,0) | 0.098 | 
 ARIMA(X,X,0)| 0.11 | 
 Linear Regression | 8*10> | 
 Lasso Regression| 0.094 | 
