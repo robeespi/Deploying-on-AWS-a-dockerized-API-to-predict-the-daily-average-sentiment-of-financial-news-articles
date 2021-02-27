@@ -35,7 +35,7 @@ You can test by using postman at:
 
 http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/API/PREDICT_AVG_SENTIMENT
 
-The endpoint accepts parameters from the user in a request like the following.
+<p align=justify>The endpoint accepts parameters from the user in a request like the following.
 
 {"hold out samples": 20,
 "lag observations": 3,
@@ -46,7 +46,7 @@ The endpoint accepts parameters from the user in a request like the following.
 
 <p align=justify> All models were tested with a hold out samples (33% of the dataset). 
 
-Even tough Regularized Regression such as Ridge performed slightly better than ARIMA models, I picked ARIMA model because it can be adapted easily to new data by incorporating each new observation into the model (Autoregressive models have worked better (>1,0,0))
+<p align=justify>Even tough Regularized Regression such as Ridge performed slightly better than ARIMA models, I picked ARIMA model because it can be adapted easily to new data by incorporating each new observation into the model (Autoregressive models have worked better (>1,0,0))
 
 Model | RMSE |  
 --- | --- | 
@@ -64,14 +64,14 @@ Univariate LSTM | 0.092 |
   
 <p align=justify> Trial1 notebook has all the details about connection to the database, EDA, basic feature engineering and performance and experiment of these models
 
-Some dataframes were inspected by profiling pandas library.There are two html outpus for this purpose. The bigger one couldn´t be uploaded here, but you can pull the images from DockerHub to access it
+<p align=justify>Some dataframes were inspected by profiling pandas library.There are two html outpus for this purpose. The bigger one couldn´t be uploaded here, but you can pull the images from DockerHub to access it
 
 https://hub.docker.com/repository/docker/robeespi/roblast27
 
 
 Some EDA activities and basic feature engineering techniques explored:
 
-* Pandas profiling ( They are in the docker container as output2.html and output3.html, output2 is the EDA about the sql query and output3 is the dataframe by grouping the timestamp by day and incorporating category and sector as dummy variables)
+* Pandas profiling ( They are in the docker container as output2.html and output3.html, output2 is the EDA about the sql query and output3 is the dataframe by grouping the timestamp by day and incorporating category and sector as dummy variables)<p align=justify>
 
 * Lag plots
 
