@@ -2,7 +2,7 @@
 
 # 1. Objetives
 
-<p align=justify> 1.1. Build and host a predictive model on AWS with Python in 36 hours
+<p align=justify> # 1.1. Build and host a predictive model on AWS with Python in 36 hours
 
 <p align=justify> 1.2. Using a dataset of news articles, train a model to predict the average sentiment of the next day.
 
@@ -60,7 +60,7 @@ https://hub.docker.com/repository/docker/robeespi/roblast27
 
 <p align=justify> 3.2
 
-#4 Future Work
+# 4. Future Work
 
 <p align=justify> LSTM univariate approach shows overfitting, but multivariate approach by ussing attention mechanism will be explored
 
