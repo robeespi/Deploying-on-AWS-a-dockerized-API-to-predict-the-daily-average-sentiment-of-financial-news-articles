@@ -12,6 +12,6 @@
   
 # 2 Solution
 
-![image](https://user-images.githubusercontent.com/21260916/109386400-4d847800-794a-11eb-9a4d-d9afde4b3831.png)
+![image](https://github.com/robeespi/Deploying-on-AWS-a-dockerized-API-to-time-series-prediction-problem/blob/main/solution_diagram.jpeg)
 
 
