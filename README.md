@@ -90,5 +90,5 @@ Some EDA activities and basic feature engineering techniques explored:
 
 # 4. Future Work
 
-<p align=justify> LSTM univariate approach shows overfitting, but multivariate approach by ussing attention mechanism will be explored
+<p align=justify> LSTM univariate approach shows good performance, but overfitting as well. Multivariate approach by ussing attention mechanism will be explored
 
