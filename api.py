@@ -42,7 +42,7 @@ def predict_avg_sentiment():
     maw = request.json['moving average window']
     print(maw)
     
-    conn = psycopg2.connect(host="ec2-52-63-12-173.ap-southeast-2.compute.amazonaws.com", port = 5432, database="misc", user="hiring_test_readonly", password="pretense_yarrow_armhole")
+    conn = psycopg2.connect(host="ec2-xx-xx-xx-xx.ap-southeast-2.compute.amazonaws.com", port = xxxx, database="xxxx", user="readonly", password="xyxyxy")
     
     sql_query = "SELECT publish_datetime, date_time_utc, date_time_aest, sentiment_score, tags, sector, category, author, article_title, article_summary, sub_category, article_content FROM afr_articles ORDER BY publish_datetime"
     
