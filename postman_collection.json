@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "da3a7162-7679-494f-8cd1-46680323bee7",
+		"name": "9epoch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/API/PREDICT_AVG_SENTIMENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"hold out samples\": 23,\n\"lag observations\": 9,\n\"degree of differencing\": 0,\n\"moving average window\": 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/API/PREDICT_AVG_SENTIMENT",
+					"protocol": "http",
+					"host": [
+						"ec2-54-79-143-239",
+						"ap-southeast-2",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"API",
+						"PREDICT_AVG_SENTIMENT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/testing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-79-143-239.ap-southeast-2.compute.amazonaws.com/testing",
+					"protocol": "http",
+					"host": [
+						"ec2-54-79-143-239",
+						"ap-southeast-2",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"testing"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
