@@ -1,4 +1,4 @@
-# Deploying-on-AWS-a-dockerized-API-to-time-series-prediction-problem
+# Deploying on AWS a dockerized API to predict the daily average sentiment of financial news articles
 
 # 1. Objetives
 
