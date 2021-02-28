@@ -8,7 +8,7 @@
 
 <p align=justify> 1.3.	Host the model within a free-tier instance on AWS.
 
-<p align=justify> 1.4.	Build an endpoint that accepts parameters from a user and returns a time series of average sentiment values with the final value as a prediction from your model.
+<p align=justify> 1.4.	Build an endpoint that accepts parameters from a user and returns a time series of average sentiment values with the final value as a prediction from the model.
   
 # 2. Solution
 
