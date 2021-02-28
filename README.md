@@ -23,7 +23,7 @@
 
 <p align=justify> The user can change any of these parameters but be aware that some combinations are computationally expensive, it is just a free-tier ec2 instance. 
 
-<p align=justify> 2.3. After accept the inputs, the API script allow to perform a rolling forecast to re-create the ARIMA model after each new observation is received. Therefore, the model able to adapt to new data easily. 
+<p align=justify> 2.3. After accept the inputs, the API script (api.py) performed a rolling forecast to re-create the ARIMA model after each new observation is received. Therefore, the model able to adapt to new data easily. 
   
 <p align=justify> 2.4.This walk-forward validation is performed in the hold out samples and then finally predict the average sentiment of the articles for the next day.
 
