@@ -60,6 +60,8 @@ Decision Tree Regression | 0.11 |
 XGB Regressor | 0.11 | 
 Univariate LSTM | 0.092 | 
 
+Please consider that the cells related to LSTM approach will not work in the container environment because I did not install TensorFlow there. I developed the LSTM approach in my local environment, just for time convenience.
+
 # 3.2.Pipeline
   
 <p align=justify> Trial1 notebook has all the details about connection to the database, EDA, basic feature engineering and performance and experiment of these models
