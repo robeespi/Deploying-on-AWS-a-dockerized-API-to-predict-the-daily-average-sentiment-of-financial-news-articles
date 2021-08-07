@@ -2,7 +2,7 @@
 
 # 1. Objetives
 
-<p align=justify> 1.1. Build and host a predictive model on AWS with Python in 36 hours
+<p align=justify> 1.1. Build and host a predictive model on AWS with Python 
 
 <p align=justify> 1.2. Using a dataset of news articles, train a model to predict the average sentiment of the next day.
 
